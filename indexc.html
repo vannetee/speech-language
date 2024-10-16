@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Transcription with Stopwatch</title>
+    <link rel="stylesheet" href="stlylee.css">
+</head>
+<body>
+    <div>
+        <h1>Speech Transcription with Stopwatch</h1>
+        <select id="languageSelect">
+            <option value="en-US">English</option>
+            <option value="km-KH">Khmer</option>
+            <option value="ja-JP">Japanese</option>
+            <option value="es-ES">Spanish</option>
+            <option value="fr-FR">French</option>
+            <option value="de-DE">German</option>
+            <option value="it-IT">Italian</option>
+            <option value="zh-CN">Chinese (Mandarin)</option>
+            <option value="ru-RU">Russian</option>
+            <option value="ar-SA">Arabic</option>
+            <option value="ko-KR"></option>
+        </select>
+        <button id="startButton">Start</button>
+        <div id="stopwatch">00:00:00</div>
+        <div id="transcription"></div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
